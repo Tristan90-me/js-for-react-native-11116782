@@ -26,10 +26,10 @@ function formatArrayStrings(strings, numbers) {
 }
 
 // Example usage
-const inputArray = [1, 2, 3, 4, 5];
+const inputArray = [1, 4, 9, 16, 25];
 const processedArray = processArray(inputArray);
-console.log(processedArray); // Output: [3, 4, 9, 16, 15]
+console.log(processedArray);
 
-const stringArray = ["Hello", "World", "JavaScript", "is", "Fun"];
+const stringArray = ["Studying", "Really", "Is", "a", "Pain"];
 const formattedStrings = formatArrayStrings(stringArray, processedArray);
-console.log(formattedStrings); // Output: ["hello", "WORLD", "javascript", "IS", "fun"]
+console.log(formattedStrings); 
